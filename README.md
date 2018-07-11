@@ -1,8 +1,8 @@
 # CroweHelloWorld
 This project is for a coding challenge given by Crowe LLP.
-##Coding Exercise Instructions:
+## Coding Exercise Instructions:
 
-#####Write a Hello World program 
+##### Write a Hello World program 
 1. The program has 1 current business requirement a write Hello World to the console/screen. 
 2. The program should have an API that is separated from the program logic to eventually support mobile applications, web applications, console applications or windows services. 
 3. The program should support future enhancements for writing to a database, console application, etc. 
@@ -11,8 +11,8 @@ This project is for a coding challenge given by Crowe LLP.
 4. Write unit tests to support the API.
 5. Feel free to use a github program to store the coding exercise as I know that’s typically easier to use.
 
-##Decisions
-#####I will explain some of the decisions I made to support the requirements below:
+## Decisions
+##### I will explain some of the decisions I made to support the requirements below:
 
 1. Straight forward
 2. I took this to mean we would want to be able to reuse this _HelloWorld_ API in the future, so the logic is separated into its own folder called _App_ and is implementing an interface for easy resuse later.
